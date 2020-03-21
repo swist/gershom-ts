@@ -1,0 +1,29 @@
+{
+  "name": "gershom-ts",
+  "version": "0.0.1",
+  "description": "Gershom.ts is a DD TypeScript github mergebot",
+  "main": "index.ts",
+  "scripts": {
+    "test": "mocha test"
+  },
+  "keywords": [
+    "bors",
+    "git",
+    "mergebot",
+    "github"
+  ],
+  "author": "Tomasz Nguyen",
+  "license": "ISC",
+  "dependencies": {
+    "@octokit/app": "^4.2.0",
+    "@octokit/auth": "^2.0.0",
+    "@octokit/core": "^2.4.2",
+    "@octokit/fixtures": "^21.0.3",
+    "@octokit/graphql-schema": "^7.1.0",
+    "@octokit/plugin-request-log": "^1.0.0",
+    "@octokit/plugin-throttling": "^3.2.0",
+    "@octokit/types": "^2.5.0",
+    "@octokit/webhooks": "^7.1.0",
+    "@octokit/webhooks-definitions": "^3.3.0"
+  }
+}
