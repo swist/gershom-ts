@@ -4,7 +4,8 @@
   "description": "Gershom.ts is a DD TypeScript github mergebot",
   "main": "index.ts",
   "scripts": {
-    "test": "mocha test"
+    "start": "node ./build/main.js",
+    "test": "mocha --watch"
   },
   "keywords": [
     "bors",
@@ -25,5 +26,16 @@
     "@octokit/types": "^2.5.0",
     "@octokit/webhooks": "^7.1.0",
     "@octokit/webhooks-definitions": "^3.3.0"
+  },
+  "devDependencies": {
+    "@types/chai": "^4.2.11",
+    "@types/mocha": "^7.0.2",
+    "@types/node": "^13.9.2",
+    "chai": "^4.2.0",
+    "chai-as-promised": "^7.1.1",
+    "chai-string": "^1.5.0",
+    "mocha": "^7.1.1",
+    "ts-node": "^8.7.0",
+    "typescript": "^3.8.3"
   }
 }
